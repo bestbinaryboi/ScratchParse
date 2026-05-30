@@ -3559,7 +3559,7 @@ var scratchblocks = (function (exports) {
     const f = parseLines(code, languages);
     const scripts = parseScripts(f);
     recogniseStuff(scripts);
-    return new Document(scripts)
+    return scripts
   }
 
   exports.parse = parse;
